@@ -15,7 +15,7 @@ function App() {
 export default App;
 
 const AppDiv = styled.div`
-  background: #af5e62;
+  background: #6a8b67;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
   width: 100%;
   height: 58em;

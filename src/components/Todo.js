@@ -72,7 +72,7 @@ export default function TodoList() {
 }
 
 const ToDoDiv = styled.div`
-  background: #68cece;
+  background: #c3c8d0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
   width: 100%;
   max-width: 400px;
@@ -99,7 +99,7 @@ const ToDoDiv = styled.div`
 
 const ClearButton = styled.button`
 font-size: .9em;
-background: #a4a89f;
+background: #f5d3d9;
 text-transform: uppercase;
 padding: 12px;
 border-radius: 5px;
@@ -117,7 +117,7 @@ margin-bottom: 3%;
 `;
 
 const FormDiv = styled.form`
-  background: #f5b390;
+  background: #d10d58;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
   width: 100%;
   height: 5em;
@@ -133,7 +133,7 @@ const FormDiv = styled.form`
 
 const StyledButton = styled.button`
   font-size: 1em;
-  background: #a4a89f;
+  background: #f5d3d9;
   text-transform: uppercase;
   padding: 9px;
   margin-left: 5%;
@@ -142,8 +142,8 @@ const StyledButton = styled.button`
   transition: all 0.4s ease 0s;
   &:hover {
     color: black;
-    background: #af5e62;
-    border-color: #f6b93b !important;
+    background: #6a8b67;
+
     transition: all 0.4s ease 0s;
   }
 `;
