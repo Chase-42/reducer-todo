@@ -1,5 +1,5 @@
-# ToDo Application 
-A todo application for adding, selecting and deleting different tasks. 
+# To Do Application 
+A to do application for adding, selecting and deleting different tasks. 
 
 ## Hosted Application
 https://react-reducer-todo.netlify.app/
