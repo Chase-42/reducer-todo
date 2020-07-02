@@ -1,29 +1,29 @@
 export const initialState = [
   {
-    item: "Get woke",
+    item: 'Wake up',
     id: 123,
-    completed: false
+    completed: false,
   },
   {
-    item: "Get swole",
+    item: 'Make coffee',
     id: 124,
-    completed: false
+    completed: false,
   },
   {
-    item: "Code",
+    item: 'Code',
     id: 1235,
-    completed: false
+    completed: false,
   },
   {
-    item: "Get paid",
+    item: 'Repeat',
     id: 1246,
-    completed: false
-  }
+    completed: false,
+  },
 ];
 
-export const ADD_TODO = "ADD_TODO";
-export const TOGGLE_COMPLETED = "TOGGLE_COMPLETED";
-export const CLEAR_COMPLETED = "CLEAR_COMPLETED";
+export const ADD_TODO = 'ADD_TODO';
+export const TOGGLE_COMPLETED = 'TOGGLE_COMPLETED';
+export const CLEAR_COMPLETED = 'CLEAR_COMPLETED';
 
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
@@ -33,18 +33,18 @@ export const reducer = (state = initialState, action) => {
         {
           item: action.payload.item,
           id: Date.now(),
-          completed: false
-        }
+          completed: false,
+        },
       ];
     case TOGGLE_COMPLETED:
-      return state.map(todo => {
+      return state.map((todo) => {
         if (todo.id === action.payload.item_id) {
           return { item: todo.item, completed: !todo.completed, id: todo.id };
         }
         return todo;
       });
     case CLEAR_COMPLETED:
-      return state.filter(todo => {
+      return state.filter((todo) => {
         if (todo.completed === false) {
           return todo;
         }
