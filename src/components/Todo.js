@@ -74,10 +74,10 @@ export default function TodoList() {
 const ToDoDiv = styled.div`
   background: #c3c8d0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   padding: 10px;
-  margin: .75rem auto;
+  margin: 0% 10% 0% 10%;
   li {
     text-align: left;
     font-size: 1.3rem;
@@ -119,11 +119,9 @@ margin-bottom: 3%;
 const FormDiv = styled.form`
   background: #d10d58;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
-  width: 100%;
   height: 5rem;
-  max-width: 300px;
   padding: 15px;
-  margin: 16px auto;
+  margin: 5% 1% 5% 1%;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -143,7 +141,6 @@ const StyledButton = styled.button`
   &:hover {
     color: black;
     background: #6a8b67;
-
     transition: all 0.4s ease 0s;
   }
 `;
