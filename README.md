@@ -1,6 +1,7 @@
 ![reducertodoscreenshot](https://lh3.googleusercontent.com/pw/ACtC-3e4AVjglGhTXWqEOimPn-RoS6-C34jt5wGiMPNto4HRvTdP3bZ0Hq7a0XZ7_oDXKZRfz0QjrhsYxzPD4Q-YiLBmhA2yLQmSIblszXzGR9Rlmi15c7VunJFdtqUGRAxbOClOQeOSqh8PsRl1Go08uCSc=w3762-h2074-no?authuser=0)
+
 # To Do Application 
-A to do application for adding, selecting and deleting different tasks made with The State Reducer Pattern (via useReducer hook). 
+A to do application for adding, selecting and deleting different tasks. Made with the State Reducer Pattern (via useReducer hook). 
 
 ## Hosted Application
 https://chase-todo.netlify.app/
