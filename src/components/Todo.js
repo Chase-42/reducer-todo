@@ -73,8 +73,12 @@ export default function TodoList() {
 
 const ToDoDiv = styled.div`
   background: #c3c8d0;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+  0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
   width: 90%;
+  @media(max-width: 500px) {
+    width: 80%;
+  }
   max-width: 400px;
   padding: 10px;
   margin: 0% 10% 0% 10%;
@@ -118,10 +122,11 @@ margin-bottom: 3%;
 
 const FormDiv = styled.form`
   background: #d10d58;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
   height: 5rem;
   padding: 15px;
-  margin: 5% 1% 5% 1%;
+  margin: 5% 0% 5% 0%;
   text-align: center;
   display: flex;
   flex-direction: row;
